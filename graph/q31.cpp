@@ -15,5 +15,13 @@ int main() {
         g[b].push_back(a);
     }
 
+    vector<int> dist(n, -1);
+    dist[0] = 0;
+    queue<int> que;
+    que.push(0);
+    for(int i = 0; i < n; i++) {
+        
+    }
+
     return 0;
 }
